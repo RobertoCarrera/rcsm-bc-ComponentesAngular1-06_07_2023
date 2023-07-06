@@ -1,0 +1,33 @@
+.container_form{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input_info{
+
+    margin: 1em 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_info label{
+
+    margin-right: 4em;
+}
+
+.input_info input{
+
+
+    margin-left: 4em;
+}
+
+.input_info input, .input_info select{
+
+    max-width: 12em;
+    max-height: 2.2em;
+}
